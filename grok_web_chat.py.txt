@@ -48,7 +48,7 @@ def chat_fn(message, chat_history):
 
 # 🧩 STEP 4: UI
 with gr.Blocks() as demo:
-    gr.Markdown("<h1 style='text-align:center;'>🤖 Adarsh GPT (Groq Powered)</h1>")
+    gr.Markdown("<h1 style='text-align:center;'>🤖 Adarsh GPT </h1>")
     chatbot = gr.Chatbot(type="messages")
     msg = gr.Textbox(placeholder="Type your message here...")
     state = gr.State([])
